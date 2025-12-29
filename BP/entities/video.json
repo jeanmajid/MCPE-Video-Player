@@ -1,0 +1,39 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "jeanmajid:video",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "video"
+                ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:fire_immune": true,
+            "minecraft:knockback_resistance": {
+                "value": 9999
+            },
+            "minecraft:physics": {
+                "has_gravity": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false
+            },
+            "minecraft:skin_id": {
+                "value": 1
+            }
+        },
+        "component_groups": {},
+        "events": {}
+    }
+}

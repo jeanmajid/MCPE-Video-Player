@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Video renderer by jeanmajid",
+        "description": "go into https://discord.gg/6PFMrzS3sG for video requests, help or my other projects",
+        "uuid": "bd172929-91d5-44b7-b7d8-39256778eb76",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "14d77d31-1d01-4dac-a7b3-05dcc956ba0f",
+            "version": "1.0.0"
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "3b012e50-1c7b-48ac-863c-c8a4fe251884",
+            "version": "1.0.0",
+            "entry": "scripts/index.js"
+        }
+    ],
+    "metadata": {
+        "authors": ["Jean majid"]
+    },
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        }
+    ]
+}

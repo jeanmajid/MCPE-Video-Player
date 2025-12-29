@@ -1,0 +1,11 @@
+{
+    "video.sound": {
+        "max_distance": 99999.0,
+        "sounds": [
+            {
+                "load_on_low_memory": true,
+                "name": "sounds/video/sound"
+            }
+        ]
+    }
+}

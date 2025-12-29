@@ -1,0 +1,11 @@
+{
+   "individual_event_sounds": {
+      "events": {
+         "video.sound": {
+            "pitch": 1,
+            "sound": "video.sound",
+            "volume": 1
+         }
+      }
+   }
+}

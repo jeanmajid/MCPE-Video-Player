@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": ["jeanmajid"]
+    },
+    "header": {
+        "name": "Video renderer by jeanmajid",
+        "description": "go into https://discord.gg/6PFMrzS3sG for video requests, help or my other projects",
+        "min_engine_version": [1, 19, 50],
+        "uuid": "994e4917-4f7f-4bc8-8d84-16998cf3a3b2",
+        "version": [1, 0, 0]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "98d4045a-bfbb-4fe9-b0e9-0bac7f47791d",
+            "version": [1, 0, 0]
+        }
+    ]
+}
